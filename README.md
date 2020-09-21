@@ -1,36 +1,59 @@
 # msi-z270-krait-gaming-hackintosh
+
 Success MSI Z270 KRAIT GAMING | i7 7700k Catalina 10.15.6
-Hardware:
+
+## Hardware:
+
 CPU: i7 7700k
+
 GPU: Intel Graphics 630
+
 RAM: 2x16GB Corsair Vengeance CMK32GX4M2D3200C16
+
 Motherboard: MSI Z270 KRAIT GAMING / MSI B250 KRAIT GAMING ( i'm tested on both mb )
+
 Audio Codec: Realtek® ALC1220 (Working)
+
 Ethernet Card: Ethernet Intel® I219-V (working)
+
 Wifi/BT Card: N/D
+
 Touchpad and touch display devices: N/D
+
 BIOS revision: 7A59vA9
 
 
 
-
-MSI BIOS Settings
+## MSI BIOS Settings
 Save & Exit → Restore Defaults : Yes
 Advanced \ Integrated Peripherals → Network Stack : [Disabled]
+
 Advanced \Integrated Peripherals  → Intel Serial IO : [Disabled]
+
 Advanced \ USB Configuration → XHCI Hand-off : [Enabled]
+
 Advanced \ USB Configuration → Legacy USB Support : [Auto]
+
 Advanced \ Windows OS Configuration → MSI Fast Boot : [Disabled]
+
 Advanced \ Windows OS Configuration → Fast Boot : [Disabled]
+
 Overclocking  → Extreme Memory Profile(X.M.P) : [Enabled]
+
 Overclocking \ CPU Features → Intel Virtualization Tech : [Enabled]
+
 Overclocking \ CPU Features → Intel VT-D Tech : [Disabled]
+
 Boot → Boot mode select : [LEGACY+UEFI]
 
-post config
+bios/ after installing macOS
+
 the debug mode is turned of and fastboot is turned on
 
-Clover revision: 5107
+
+
+
+## Clover revision: 5107
 
 Kexts:
 
